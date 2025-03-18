@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Estilo del encabezado */
 header {
     display: flex;
     justify-content: space-between;
@@ -110,7 +109,6 @@ h1 {
     transform: scale(1.05);
 }
 
-/* Footer */
 footer {
     background-color: #f3a9a9;
     color: #fff;

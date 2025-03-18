@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f3a9a9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #310047;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffdfff;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);    
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.historia {
+    padding: 40px;
+}
+
+.historia h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #df6e66;
+}
+
+.historia p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.mision-vision {
+    padding: 40px;
+}
+
+.mision-vision h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #df6e66;
+}
+
+.mision-vision p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.valores {
+    padding: 40px;
+}
+
+.valores h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #df6e66;
+    text-align: center;
+}
+
+.valores ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.valores li {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.valores strong {
+    font-weight: bold;
+    color: #d24036;
+    text-transform: uppercase;
+}
+
+.especial {
+    padding: 40px;
+}
+
+.especial h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #df6e66 ;
+}
+
+.especial p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f3a9a9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fff;
+}

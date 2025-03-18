@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f3a9a9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #310047;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffdfff;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);    
+
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.ubicacion {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: linear-gradient(to bottom, #fff, #f7f7f7);
+}
+
+.ubicacion h2 {
+    font-size: 28px;
+    color: #310047;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-maps {
+    display: inline-block;
+    background-color: #f3a9a9;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn-maps:hover {
+    background-color: #e89090;
+    transform: translateY(-2px);
+}
+
+.imagenes img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagenes img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+footer {
+    background-color: #f3a9a9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fff;
+}
