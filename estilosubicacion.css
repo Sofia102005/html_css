@@ -1,0 +1,47 @@
+.ubicacion {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.ubicacion h2 {
+    font-size: 28px;
+    color: #310047;
+    margin-bottom: 15px;
+}
+
+.ubicacion p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.imagenes img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-maps {
+    display: inline-block;
+    background-color: #f3a9a9;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn-maps:hover {
+    background-color: #e89090;
+}
