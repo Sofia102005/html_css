@@ -60,7 +60,10 @@ nav ul li a:hover {
 .categoria {
     margin-bottom: 40px;
     position: relative;
-    width: 50%;
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap;
+    
 }
 
 .categoria h2 {
@@ -70,8 +73,7 @@ nav ul li a:hover {
 }
 
 .producto {
-    display: inline-block;
-    width: 280px;
+    width: 280px; 
     margin: 10px;
     background-color: #fff;
     border-radius: 8px;
@@ -92,6 +94,7 @@ nav ul li a:hover {
     font-size: 14px;
     color: #666;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .precio {
@@ -107,7 +110,9 @@ nav ul li a:hover {
 .imagen {
     display: block;
     width: 100%;
-    height: auto;
+    height: 300px; 
+    margin: 10px;
+    object-fit: cover;
 }
 
 .diseno {
