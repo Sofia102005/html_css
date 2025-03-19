@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
     <link rel="stylesheet" href="css/estiloscontactos.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <img src="img/Logo.jpg" alt="Logo Pastelería Deliciosa">
+            <img src="img/Logo inicial.png" alt="Logo Pastelería Deliciosa">
         </div>
         <nav>
             <ul>
@@ -18,14 +20,16 @@
                 <li><a href="Nosotros.html">Sobre Nosotros</a></li>
                 <li><a href="ubicacion.html">Ubicacion</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-            
+
             </ul>
         </nav>
     </header>
-    <h2> ¡Domicilios a cualquier lugar!</h2>
+    <section class="hero">
+        <h1> Contactanos</h1>
+        <h2> ¡Domicilios a cualquier lugar!</h2>
+    </section>
     <br>
-    <h1> Contactanos</h1>
-    <p>¡Escribenos! Estamos aquí para ayudarte en lo que necesites.</p>
+    <h3>¡Escribenos! Estamos aquí para ayudarte en lo que necesites.</h3>
     <form>
         <label for="">Nombre : </label>
         <input type="text" name="nom" placeholder="Ingrese su nombre " maxlength="60" required>
@@ -36,36 +40,38 @@
         <input type="tel" id="phone" name="phone" placeholder="300 000 0000" placeholder="ingrese su Telefono">
         <br>
         <label for="">Correo electrónico : </label>
-        <input type="email" name="email"  placeholder="Ingrese su correo electrónico" required>
+        <input type="email" name="email" placeholder="Ingrese su correo electrónico" required>
         <br>
         <label for="">Direccion : </label>
-        <input type="text" name="dir"  placeholder="Ingrese su direccion" required>
+        <input type="text" name="dir" placeholder="Ingrese su direccion" required>
         <br>
-        <label for="">  Comentarios :</label>
+        <label for=""> Comentarios :</label>
         <textarea name="Comentarios" rows="8"></textarea>
         <br>
         <div>
-        <label for="">¿Te gustaria recibir actualizaciones de ofertas, descuentos y promociones de nuestro equipo? :</label>
-                    <br>
-                    <label>
-                        <input type="radio" name="notificaciones" value="A" checked>
-                        Si
-                    </label>
-                    <br>
-                    <label>
-                        <input type="radio" name="not" value="B" >
-                        No, gracias.
-                    </label>
+            <label for="">¿Te gustaria recibir actualizaciones de ofertas, descuentos y promociones de nuestro equipo?
+                :</label>
+            <br>
+            <label>
+                <input type="radio" name="notificaciones" value="A" checked>
+                Si
+            </label>
+            
+            <label>
+                <input type="radio" name="not" value="B">
+                No, gracias.
+            </label>
         </div>
         <br>
-                    <label>
-                        <input type="checkbox" name="tratamiento" required>
-                        He leido las politicas de uso, el tratamiento de informacion y estoy de acuerdo con el uso de mis datos personales.
-                    </label>
-                    
+        <label>
+            <input type="checkbox" name="tratamiento" required>
+            He leido las politicas de uso, el tratamiento de informacion y estoy de acuerdo con el uso de mis datos
+            personales.
+        </label>
+
         <br>
         <input type="submit" value="Enviar">
-        
+
     </form>
     <footer>
         <div class="social-media">
@@ -82,4 +88,5 @@
         <p>&copy; 2025 Pastelería Deliciosa</p>
     </footer>
 </body>
+
 </html>
